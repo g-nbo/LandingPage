@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.headbod {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+
+.leftbod {
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    color: white;
+    
+}
+
+.placeholder {
+    background-color: gray;
+    color: white;
+    
+}
